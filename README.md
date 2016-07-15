@@ -12,6 +12,14 @@ The project contains 2 main folders
 ### The box
 
 The vagrant setup uses a custom made vagrant box that is provisioned with the lates OEL 7.2.
+It's a multimachine Vagrantfile with two virtual machines.
+
+You can start them with:
+`$ vagrant up client`
+or
+`$ vagrant up server`
+
+Easy!
 
 ## The RPMS
 
