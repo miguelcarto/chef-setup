@@ -27,6 +27,7 @@ You can download the RPMs at:
 
 - [Chef Server] (https://downloads.chef.io/chef-server/redhat/)
 - [Chef Manage] (https://downloads.chef.io/chef-manage/redhat/)
+- [Chef Client] (https://downloads.chef.io/chef-client/redhat/)
 
 ## More
 
