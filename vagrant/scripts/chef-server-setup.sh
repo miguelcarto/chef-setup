@@ -1,4 +1,4 @@
-sudo rpm -Uvh /software/chef-server-core-12.7.0-1.el7.x86_64.rpm
+sudo rpm -Uvh /software/chef-server-core-12.13.0-1.el7.x86_64.rpm
 
 echo -e "\e[33mCopy chef-server.rb\e[0m"
 cp /vagrant/chef-server.rb /etc/opscode/chef-server.rb
@@ -6,7 +6,7 @@ cp /vagrant/chef-server.rb /etc/opscode/chef-server.rb
 echo -e "\e[33mchef-server-ctl reconfigure\e[0m"
 sudo chef-server-ctl reconfigure
 
-sudo rpm -Uvh /software/chef-manage-2.4.0-1.el7.x86_64.rpm
+sudo rpm -Uvh /software/chef-manage-2.4.4-1.el7.x86_64.rpm
 
 echo -e "\e[33mchef-server-ctl reconfigure\e[0m"
 sudo chef-server-ctl reconfigure
